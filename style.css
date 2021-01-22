@@ -1,0 +1,111 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  background:#23272A;
+  color:#72767d;
+}
+
+.display-4 {
+  font-size:30px !important;
+}
+
+.dank {
+  background:#7495e6;
+  color:#fff !important;
+  transition:.3s;
+}
+
+.dank:hover {
+  background:#fff !important;
+  color:#7495e6 !important;
+  transition:.3s;
+}
+
+.typed {
+  color:#fff !important;
+}
+
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+li {
+  color:#fff !important;
+}
+
+.cont {
+  border:1px solid #2C2F33;
+  border-radius:2px;
+}
+
+.jumbotron h1 {
+  font-weight:700;
+  color:#fff !important;
+  font-size:100px;
+}
+
+.sub {
+  font-size:18px;
+  color:#fff !important;
+}
+
+.lead {
+  color:#fff !important;
+}
+
+h2, h3, h4, h5 {
+  color:#fff !important;
+}
+
+#card {
+  font-size:80px;
+  color:#7495e6;
+}
+
+.smol {
+  width:200px;
+}
+
+#fat {
+  font-weight:700;
+}
+
+.card {
+  background: transparent !important;
+  border:0px !important;
+}
+
+.jumbotron {
+  border-radius:0px !important;
+  background: url(https://media.discordapp.net/attachments/796078890862510110/802221688858869780/398858.jpg?width=819&height=461) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom:5px solid #fff;
+}
